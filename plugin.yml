@@ -1,0 +1,23 @@
+name: KPluginSecure
+authors: [HTML, YOURNAME]
+main: me.adam.pl1.main
+version: 1.7
+depend: [ProtocolLib]
+description: Stop people stealing your servers precious plugins!
+
+commands:
+    kps:
+        usage: </command>
+        description: KPS Main Command.
+    kpsreload:
+        usage: </command>
+        description: KPS Reload Command.
+permissions:
+    kps.reload:
+        default: op
+    kps.tab.bypass:
+        default: op
+    kps.list.bypass:
+        default: op	
+    kps.notify:
+        default: op
