@@ -1,0 +1,13 @@
+#THANK YOU FOR DOWNLOADING! You may customize any messages you wish, or just leave them standard!
+#If you put something like "you're", this will break the plugin, use "you''re" as this is how YAML works!
+
+#Author: @HTML
+#Spigot Page: http://bit.ly/1T1QppI
+#Version: 1.7
+message-tabplugins: '&aSorry, but you are not allowed to do that!'
+message-listplugins: '&aSorry, but you are not allowed to do that!'
+message-noperms-reload: '&aSorry, but you are not allowed to do that!'
+reload-message: '&aKPS Has been reloaded successfully!'
+message-join: '&aPlugin stealing is disabled!'
+message-opnotify-tab: '&e%player%&e tried to TAB your plugins!'
+message-opnotify-list: '&e%player%&e tried to list your plugins!'
