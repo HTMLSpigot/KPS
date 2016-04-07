@@ -44,7 +44,7 @@ implements Listener {
                     String playerName = e.getPlayer().getName();
                     String optabnotify = main.this.getConfig().getString("message-opnotify-tab");
                     if (optabnotify.contains("%player%")) {
-                        optabnotify = optabnotify.replaceAll("%player%", playerName);
+                        optabnotify = optabnotify.replace("%player%", playerName);
                         if (message.startsWith("/") && !message.contains(" ")) {
                             e.setCancelled(true);
                         } else if (message.startsWith("/help") && message.contains(" ") || message.startsWith("/bukkit:help") && message.contains(" ")) {
